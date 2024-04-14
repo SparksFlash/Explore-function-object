@@ -18,9 +18,19 @@ function multiplyTwoNumbers(num1, num2) {
 var total = multiplyTwoNumbers(5, 100);
 console.log('total after multiplication', total);
 
-// biyog koro duita sonkha
+function substractTwoNumbers(num1, num2) {
+    var result = num1 - num2;
+    return result;
+}
+
+var total = substractTwoNumbers(50, 100);
+console.log('total after substraction', total);
 
 
+function divideTwoNumbers(num1, num2) {
+    var result = num1 / num2;
+    return result;
+}
 
-
-// vabfol ber koro
+var total = divideTwoNumbers(100, 5);
+console.log('total after dividation', total);
